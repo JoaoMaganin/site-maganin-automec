@@ -1,0 +1,216 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.header{
+    height: 110px;
+    background-color: #000;
+    padding: 0 5%;
+    border-bottom: 2px solid #fff;
+}
+
+.logo{
+    display: inline-block;
+    height: 110px;
+    width: 30%;
+}
+
+.logo img{
+    padding: 15px 0;
+    height: 90%px;
+    width: 300px;
+}
+
+nav {
+    display: inline-block;
+    width: 40%;
+    position: relative;
+    float: right;
+    margin: 45px 0;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 16px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+nav li {
+    display: inline-block;
+    list-style: none;
+    margin-left: 30px;
+}
+
+nav a:hover{
+    transition: 1s;
+    padding-bottom: 10px;
+    border-bottom: 1px solid #fff;
+}
+
+#contato {
+    color: #000;
+    padding: 15px 30px;
+    background-color: #E0E051;
+    border-radius: 15px;
+}
+
+#contato:hover{
+    background-color: #E8E800;
+}
+
+.bg{
+    height: 600px;
+    width: 100%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+}
+
+.overlay{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.68);
+}
+
+.overlay span{
+    color: white;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.center h1{
+    color: white;
+    font-family: 'Changa', sans-serif;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 200px
+}
+
+.center h2{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 36px;
+    font-weight: 400;
+    color: #E8E800;
+    margin-top: 10px;
+}
+
+.separator{
+    height: 2px;
+    width: 450px;
+    background: #E8E800;
+    margin: 15px auto;
+}
+
+.descricao{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight:100;
+    margin-top: 15px;
+}
+
+.material-icons{
+    size: 10000x;
+}
+
+.white {
+    box-sizing: border-box;
+    display: flex;
+    background-color: rgb(255, 255, 255, 0.95);
+}
+
+.bv{
+    height: 600px;
+}
+
+.bem-vindo{
+    margin: 5% 2.5% 5% 5%;
+    width: 45%;
+    height: 80%;
+}
+
+.horario{
+    margin: 5% 5% 5% 2.5%;
+    width: 45%;
+    height: 80%;
+    background-color: red;
+}
+
+.bem-vindo span{
+    color: #000;
+    font-size: 20px;
+    font-family: 'Merriweather Sans', sans-serif;
+}
+
+.bem-vindo h3{
+    color: gray;
+    font-family: 'Changa', sans-serif;
+    font-size: 70px;
+}
+
+.bem-vindo p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 30px;
+    margin-bottom: 50px;
+}
+
+.bem-vindo #descricao-home{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bem-vindo a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 25px auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #222;
+    width: 250px;
+    height: 3em;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.horario{
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;;
+}
+
+.overlay-bem-vindo{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(0, 0, 0, 0.68);
+}
+
+.overlay-bem-vindo h4{
+    color: white;
+    font-size: 35px;
+    font-family: 'Changa', sans-serif;
+    margin-top: 350px;
+}
+
+.overlay-bem-vindo p{
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 15px;
+}
