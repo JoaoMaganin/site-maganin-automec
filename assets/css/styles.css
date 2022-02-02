@@ -190,6 +190,11 @@ nav a:hover{
     font-size: 20px;
 }
 
+.bem-vindo a:hover{
+    transition: 1ms;
+    border: 2px solid yellow;
+}
+
 .horario{
     background-size: cover;
     background-position-x: center;
@@ -213,4 +218,85 @@ nav a:hover{
     color: white;
     font-family: 'Merriweather Sans', sans-serif;
     font-size: 15px;
+}
+
+.servicos {
+    background-color: #ccc;
+    height: 650px;
+}
+
+.servicos h2{
+    margin-top: 20px;
+    color: #000;
+    font-family: 'Changa', sans-serif;
+    font-size: 45px;
+    font-weight: 600;
+}
+
+.servicos p{
+    font-family: 'Merriweather Sans', sans-serif;
+    font-size: 16px
+}
+
+.box{
+    display: flex;
+    padding-bottom: 20px;
+    margin: 50px auto;
+    width: 70%;
+    background: #808080;
+    height: 350px;
+    border-radius: 15px;
+}
+
+.imagem{
+    margin: 2.5% 5%;
+    width: 50%;
+    height: 90%;
+    background-size: cover;
+    background-position-x: center;
+    background-position-y: center;
+    border-radius: 15px;
+}
+
+.info-box{
+    margin: 2.5% 5%;
+    width: 50%;
+    height: 90%;
+}
+
+.info-box h2{
+    font-size: 36px;
+    color: white;
+}
+
+.info-box .separator{
+    width: 50%;
+    background: #222;
+}
+
+.info-box p{
+    font-size: 16px;
+    color: #fff;
+}
+
+.servicos a{
+    text-decoration: none;
+    color: white;
+    font-family: 'Merriweather Sans', sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    background-color: #222;
+    width: 400px;
+    height: 3em;
+    border-radius: 15px;
+    font-size: 20px;
+}
+
+.servicos a:hover{
+    transition: 1ms;
+    border: 2px solid yellow;
 }

@@ -4,7 +4,7 @@ Estudando sobre WordPress, percebi como é fácil criar um site utilizando const
 
 ![](assets/images/localhost_boboca_.png)
 
-Até que fibou bem bonito né?
+Até que ficou bem bonito né?
 
 No momento em que estava construindo, fui percebendo como o WordPress poderia me ajudar a melhorar o meu HTML, CSS e JavaScript pois no WordPress é bem mais intuitivo de ver e enteneder o que cada propriedade e classe pode fazer e alterar em um site.
 
